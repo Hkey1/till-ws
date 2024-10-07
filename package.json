@@ -1,0 +1,32 @@
+{
+    "name": "till-ws",
+    "version": "0.0.1",
+    "main": "./tillWS.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andrey Belousoff <a.v.belousoff@gmail.com>",
+    "license": "MIT",
+    "description": "Utils for WebSockets",
+    "keywords": [
+        "ws", "async", "await", "websocket" 
+    ],
+    "dependencies": {
+		"ws": "*",
+		"hkey-extended-promise": "*",
+		"till-event": "*"
+    },
+    "engines": {
+        "node": ">=0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hkey1/till-ws"
+    },
+    "readme":"Utils for WebSockets",
+    "readmeFilename": "Readme.md",
+    "bugs": {
+        "url": "https://github.com/Hkey1/till-ws/issues"
+    },
+    "homepage": "https://github.com/Hkey1/till-ws"
+}
